@@ -5,6 +5,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "lib": ["es6", "dom"],
+    "types": [ "firebase" ],
     "mapRoot": "./",
     "module": "es6",
     "moduleResolution": "node",
