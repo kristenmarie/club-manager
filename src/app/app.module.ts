@@ -7,6 +7,7 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { routing } from './app.routing';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { UserListComponent } from './user-list/user-list.component';
 
 import { AppComponent } from './app.component';
 
@@ -20,7 +21,8 @@ export const firebaseConfig = {
 @NgModule({
   declarations: [
     AppComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    UserListComponent
   ],
   imports: [
     BrowserModule,
