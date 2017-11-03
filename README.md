@@ -2,6 +2,7 @@
 
 #### An application for tracking members of the Timber Tigers Hiking Club, 11.03.2017
 
+![image](https://user-images.githubusercontent.com/15882954/32397698-5ad5ca80-c0a8-11e7-8972-e59089765a82.png)
 
 #### By Kristen Marie Kulha
 
@@ -75,7 +76,7 @@ Feel free to contact me at kristen.m.kulha@gmail.com
 
 ## Technologies Used
 
-_JavaScript, HTML, CSS, Node, Angular, Firebase, Clarity_
+_JavaScript, HTML, CSS, Node, Angular, Firebase, Bootstrap_
 
 ### License
 
