@@ -65,6 +65,9 @@ There are no known bugs at this time.
 
 ## Future functionality
 
+* Add a message board area, where club members may chat with each other.
+* Include an area called "hikes" where users can post planned hikes.
+* Implement AngularFire/Firebase user authentication.
 
 ## 📧Support and contact details📧
 
