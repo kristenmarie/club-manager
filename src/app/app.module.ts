@@ -10,6 +10,8 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { AboutComponent } from './about/about.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
+import { AdminComponent } from './admin/admin.component';
+import { EditUserComponent } from './edit-user/edit-user.component';
 
 import { AppComponent } from './app.component';
 
@@ -26,7 +28,9 @@ export const firebaseConfig = {
     WelcomeComponent,
     UserListComponent,
     AboutComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    AdminComponent,
+    EditUserComponent
   ],
   imports: [
     BrowserModule,

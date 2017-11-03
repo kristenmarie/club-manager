@@ -27,4 +27,9 @@ export class UserListComponent implements OnInit {
   goToProfilePage(clickedUser) {
     this.router.navigate(['users', clickedUser.$key]);
   };
+
+  submitForm(name: string, bio: string, favoriteHike: string) {
+    let newUser: User = new User(name, bio, favoriteHike);
+    this.userService.addUser(newUser);
+  }
 }

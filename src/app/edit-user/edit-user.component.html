@@ -1,0 +1,19 @@
+<h4>Edit Album</h4>
+
+<label>User Name:</label>
+<input [(ngModel)]="selectedUser.name">
+<br>
+
+<label>User Bio:</label>
+<input [(ngModel)]="selectedUser.bio">
+<br>
+
+<label>Favorite Hike:</label>
+<input [(ngModel)]="selectedUser.hike">
+
+<label>Miles:</label>
+<input [(ngModel)]="selectedUser.miles">
+
+<button (click)="beginUpdatingUser(selectedUser)">Update</button>
+<hr>
+<button (click)="beginDeletingUser(selectedUser)">Delete</button>

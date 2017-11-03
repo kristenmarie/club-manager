@@ -2,10 +2,12 @@
 <div *ngFor="let user of users | async" class="panel panel-default">
   <div class="panel-body">
     <h3 (click)="goToProfilePage(user)"><em>{{user.name}}</em></h3>
-    <!-- <div *ngIf="currentRoute ==='/admin'">
-      {{album.description}}
+    <div *ngIf="currentRoute ==='/admin'">
+      {{user.bio}}
+      {{user.favoriteHike}}
+      {{user.miles}}
       <hr>
-      <app-edit-album [selectedAlbum]="album"></app-edit-album>
-    </div> -->
+      <app-edit-user [selectedUser]="user"></app-edit-user>
+    </div>
   </div>
 </div>
