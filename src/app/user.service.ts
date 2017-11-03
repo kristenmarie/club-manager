@@ -12,4 +12,8 @@ export class UserService {
   getUsers() {
     return this.users;
   }
+
+  getUserById(userId) {
+    return this.database.object('users/' + userId);
+  }
 }

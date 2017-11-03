@@ -23,4 +23,8 @@ export class UserListComponent implements OnInit {
   ngOnInit(){
     this.users = this.userService.getUsers();
   }
+
+  goToProfilePage(clickedUser) {
+    this.router.navigate(['users', clickedUser.$key]);
+  };
 }

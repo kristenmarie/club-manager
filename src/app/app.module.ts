@@ -9,6 +9,7 @@ import { routing } from './app.routing';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { AboutComponent } from './about/about.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 import { AppComponent } from './app.component';
 
@@ -24,7 +25,8 @@ export const firebaseConfig = {
     AppComponent,
     WelcomeComponent,
     UserListComponent,
-    AboutComponent
+    AboutComponent,
+    UserProfileComponent
   ],
   imports: [
     BrowserModule,
