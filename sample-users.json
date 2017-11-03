@@ -1,14 +1,17 @@
 { "users": [{
     "name": "Mark Naborczyk",
     "bio": "Born and raised in Detroit, I like Paul Rudd movies, Haribos, and river otters.",
-    "favoriteHike": "Mount Teneriffe"
+    "favoriteHike": "Mount Teneriffe",
+    "miles": 17
     }, {
     "name": "Kristen Kulha",
     "bio": "Hailing from the south, I moved to Seattle 10 years ago for the easy access to beautiful hiking trails.",
-    "favoriteHike": "Mt. Healy Overlook Trail"
+    "favoriteHike": "Mt. Healy Overlook Trail",
+    "miles": 17
       }, {
     "name": "Jen Joyce",
     "bio": "Originally from Arizona, I enjoy all things health and fitness related",
-    "favoriteHike": "Anything in Alaska :D"
+    "favoriteHike": "Anything in Alaska :D",
+    "miles": 8
   }]
 }
