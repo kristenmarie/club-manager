@@ -8,6 +8,7 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { routing } from './app.routing';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { UserListComponent } from './user-list/user-list.component';
+import { AboutComponent } from './about/about.component';
 
 import { AppComponent } from './app.component';
 
@@ -22,7 +23,8 @@ export const firebaseConfig = {
   declarations: [
     AppComponent,
     WelcomeComponent,
-    UserListComponent
+    UserListComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
