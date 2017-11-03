@@ -21,6 +21,14 @@ img {
   border-radius: 3px;
 }
 
+input {
+  margin-bottom: 10px;
+}
+
+select {
+  margin-bottom: 10px;
+}
+
 .container-fluid {
   background-color: #837820;
   padding-top: 20px;
@@ -32,6 +40,10 @@ img {
   font-family: 'Shrikhand', cursive;
   color: #fa9116;
   font-size: 25px;
+}
+
+.panel-default {
+  border-color: #3b5984;
 }
 
 .panel-default > .panel-heading {

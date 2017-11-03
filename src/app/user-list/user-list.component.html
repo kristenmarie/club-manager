@@ -1,5 +1,10 @@
 <h2>The Timber Tigers!</h2>
-<div *ngFor="let user of users | async" class="panel panel-default users">
+<select (change)="onChange($event.target.value)" class="form-control form-control-lg">
+  <option value="all">View All Members</option>
+  <option value="under-10">Members with less than 10 miles</option>
+  <option value="over-10">Members with 10 or more miles</option>
+</select>
+<div *ngFor="let user of users | async | miles:filterByMiles" class="panel panel-default users">
   <div class="panel-body">
     <h3 (click)="goToProfilePage(user)">{{user.name}}</h3>
     <div *ngIf="currentRoute ==='/admin'">

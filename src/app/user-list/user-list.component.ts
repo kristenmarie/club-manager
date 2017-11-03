@@ -15,6 +15,7 @@ export class UserListComponent implements OnInit {
   users: FirebaseListObservable<any[]>;
   currentRoute: string = this.router.url;
 
+  filterByMiles: string = 'all';
   constructor(
     private router: Router,
     private userService: UserService
@@ -32,4 +33,8 @@ export class UserListComponent implements OnInit {
     let newUser: User = new User(name, bio, favoriteHike);
     this.userService.addUser(newUser);
   }
+
+  onChange(optionFromMenu) {
+   this.filterByMiles = optionFromMenu;
+ }
 }

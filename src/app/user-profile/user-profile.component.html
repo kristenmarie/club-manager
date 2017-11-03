@@ -1,6 +1,10 @@
 <div class="details">
-  <h3>Name: {{(userToDisplay | async).name}}</h3>
-  <h4>Bio: {{(userToDisplay | async).bio}}</h4>
-  <p>Favorite Hike: {{(userToDisplay | async).favoriteHike}}</p>
-  <p>Miles Traveled with the Timber Tigers: {{(userToDisplay | async).miles}}</p>
+  <div class="panel panel-default">
+    <div class="panel-heading">{{(userToDisplay | async).name}}</div>
+    <div class="panel-body">
+      <p>{{(userToDisplay | async).bio}}</p>
+      <p><strong>Favorite Hike:</strong> {{(userToDisplay | async).favoriteHike}}</p>
+      <p><strong>Miles Traveled with the Timber Tigers:</strong> {{(userToDisplay | async).miles}}</p>
+    </div>
+  </div>
 </div>
