@@ -19,7 +19,7 @@ This simple web application allows users to keep track of members of the Timber 
 * Administrators can remove a member from database.
 
 ## Setup/Installation Requirements
-
+* [ClickHere](https://club-manag.firebaseapp.com) OR
 * Clone this repository
 * In terminal, navigate to this projects root directory (club-directory)
 * Ensure you have [Node.js](https://nodejs.org/en/), [Gulp](https://gulpjs.com), and [TypeScript](https://www.typescriptlang.org) installed
