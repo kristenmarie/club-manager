@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./welcome.component.css']
 })
 export class WelcomeComponent implements OnInit {
-
-  constructor() { }
+  fullImagePath: string;
+  constructor() {
+    this.fullImagePath = 'assets/images/timbertigers.png';
+   }
 
   ngOnInit() {
   }
